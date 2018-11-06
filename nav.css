@@ -1,0 +1,45 @@
+.line2{
+	
+	margin-bottom:20px;
+}
+
+.line2 ul
+{
+	list-style:none;
+}
+
+.line2 ul li
+{
+	float:left;
+	background-color:navy;
+	color:white;
+	line-height:40px;
+	height:40px;
+	width: 250px;
+	text-align:center;
+
+	opacity:.9;
+
+}
+
+.line2 ul li a
+{
+	text-decoration:none;
+	display:block;
+	color:white;
+}
+
+.line2 ul li a:hover
+{
+	background-color:red;
+}
+
+.line2 ul li ul li
+{
+	display:none;
+}
+
+.line2 ul li:hover ul li
+{
+	display:block;
+}
